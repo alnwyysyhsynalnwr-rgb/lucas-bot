@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lucas-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
